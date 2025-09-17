@@ -23,7 +23,7 @@ const LoginScreen = () => {
         alt="Gloves background" 
         className="absolute inset-0 w-full h-full object-cover" 
       />
-      <div className="absolute inset-0 bg-[#6A5AF9]/70" /> {/* purple tint */}
+      <div className="absolute inset-0 bg-[var(--primary-purple)]/70" /> {/* purple tint */}
 
       <div className="relative flex flex-col justify-between p-12">
         <div>

@@ -41,7 +41,7 @@ export function DashboardPage() {
 
   return (
     // Changed background to purple and default text to white
-    <div className="w-screen min-h-screen bg-[#6A5AF9] text-white p-6">
+    <div className="w-screen min-h-screen bg-[var(--primary-purple)] text-white p-6">
       <div className="space-y-6">
         {/* Header */}
         <div className="space-y-2">

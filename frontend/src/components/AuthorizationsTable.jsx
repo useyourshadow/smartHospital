@@ -57,7 +57,7 @@ export function AuthorizationsTable({ data, onNewAuthorization }) {
             </p>
           </div>
         <Button
-          className="gap-2 bg-white text-[#6A5AF9] border border-[#6A5AF9] hover:bg-purple-50"
+          className="gap-2 bg-white text-[var(--primary-purple)] border border-[var(--primary-purple)] hover:bg-purple-50"
           onClick={onNewAuthorization}
         >
           <Plus className="w-4 h-4" />
